@@ -26,6 +26,13 @@ jobs:
           mkdir -p docs
           node fetch-weather.js
 
+      - name: Fetch Weather Data
+        env:
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          mkdir -p docs
+          node fetch-weather.js
+
       - name: Commit and Push Changes
         run: |
           git config user.name "github-actions[bot]"
