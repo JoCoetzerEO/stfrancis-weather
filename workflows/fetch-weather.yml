@@ -1,0 +1,35 @@
+name: Fetch Weather Data
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'  # Runs every 4 hours
+  workflow_dispatch:       # Allows manual triggering
+
+jobs:
+  fetch-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install node-fetch@2
+
+      - name: Fetch Weather Data
+        run: |
+          mkdir -p docs
+          node fetch-weather.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/*.json
+          git commit -m "Update weather data"
+          git push
