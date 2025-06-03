@@ -1,42 +1,37 @@
 name: Fetch Weather Data
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: '0 */4 * * *'  # Runs every 4 hours
-  workflow_dispatch:       # Allows manual triggering
+    - cron: '0 */4 * * *'  # Every 4 hours
 
 jobs:
-  fetch-and-deploy:
+  fetch-and-commit:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set Up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '18'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm install node-fetch@2
 
-      - name: Fetch Weather Data
-        run: |
-          mkdir -p docs
-          node fetch-weather.js
-
-      - name: Fetch Weather Data
+      - name: Run weather fetch script
         env:
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
-        run: |
-          mkdir -p docs
-          node fetch-weather.js
+        run: node fetch-weather.js
 
-      - name: Commit and Push Changes
+      - name: Commit and push changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/*.json
-          git commit -m "Update weather data"
+          git commit -m "Update weather data" || echo "No changes to commit"
           git push
