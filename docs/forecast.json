@@ -16,12 +16,12 @@
           "endTime": "2025-07-02T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
           "description": {
-            "text": "Rain",
+            "text": "Light rain",
             "languageCode": "en"
           },
-          "type": "RAIN"
+          "type": "LIGHT_RAIN"
         },
         "relativeHumidity": 78,
         "uvIndex": 2,
@@ -68,16 +68,16 @@
         "weatherCondition": {
           "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
           "description": {
-            "text": "Rain",
+            "text": "Light to moderate rain",
             "languageCode": "en"
           },
-          "type": "RAIN"
+          "type": "LIGHT_TO_MODERATE_RAIN"
         },
         "relativeHumidity": 94,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
-            "percent": 61,
+            "percent": 69,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -85,7 +85,7 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 29.2,
+            "quantity": 13.388,
             "unit": "MILLIMETERS"
           }
         },
@@ -176,7 +176,7 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 0.6477,
+            "quantity": 0.7477,
             "unit": "MILLIMETERS"
           }
         },
