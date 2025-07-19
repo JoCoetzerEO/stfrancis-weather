@@ -2,150 +2,6 @@
   "forecastDays": [
     {
       "interval": {
-        "startTime": "2025-07-18T05:00:00Z",
-        "endTime": "2025-07-19T05:00:00Z"
-      },
-      "displayDate": {
-        "year": 2025,
-        "month": 7,
-        "day": 18
-      },
-      "daytimeForecast": {
-        "interval": {
-          "startTime": "2025-07-18T05:00:00Z",
-          "endTime": "2025-07-18T17:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/party_cloudy",
-          "description": {
-            "text": "Partly sunny",
-            "languageCode": "en"
-          },
-          "type": "PARTLY_CLOUDY"
-        },
-        "relativeHumidity": 67,
-        "uvIndex": 2,
-        "precipitation": {
-          "probability": {
-            "percent": 5,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0.2032,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 257,
-            "cardinal": "WEST_SOUTHWEST"
-          },
-          "speed": {
-            "value": 27,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 48,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 51,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "nighttimeForecast": {
-        "interval": {
-          "startTime": "2025-07-18T17:00:00Z",
-          "endTime": "2025-07-19T05:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
-          "description": {
-            "text": "Clear",
-            "languageCode": "en"
-          },
-          "type": "CLEAR"
-        },
-        "relativeHumidity": 89,
-        "uvIndex": 0,
-        "precipitation": {
-          "probability": {
-            "percent": 0,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 312,
-            "cardinal": "NORTHWEST"
-          },
-          "speed": {
-            "value": 13,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 24,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 14,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "maxTemperature": {
-        "degrees": 16.6,
-        "unit": "CELSIUS"
-      },
-      "minTemperature": {
-        "degrees": 7.7,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMaxTemperature": {
-        "degrees": 15,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMinTemperature": {
-        "degrees": 6,
-        "unit": "CELSIUS"
-      },
-      "sunEvents": {
-        "sunriseTime": "2025-07-18T05:22:52.266559784Z",
-        "sunsetTime": "2025-07-18T15:31:25.650808106Z"
-      },
-      "moonEvents": {
-        "moonPhase": "LAST_QUARTER",
-        "moonriseTimes": [
-          "2025-07-17T22:36:46.262239292Z"
-        ],
-        "moonsetTimes": [
-          "2025-07-18T09:43:42.192880729Z"
-        ]
-      },
-      "maxHeatIndex": {
-        "degrees": 16.6,
-        "unit": "CELSIUS"
-      }
-    },
-    {
-      "interval": {
         "startTime": "2025-07-19T05:00:00Z",
         "endTime": "2025-07-20T05:00:00Z"
       },
@@ -717,6 +573,150 @@
       },
       "maxHeatIndex": {
         "degrees": 18.6,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-07-23T05:00:00Z",
+        "endTime": "2025-07-24T05:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 7,
+        "day": 23
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-07-23T05:00:00Z",
+          "endTime": "2025-07-23T17:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_sunny",
+          "description": {
+            "text": "Mostly sunny",
+            "languageCode": "en"
+          },
+          "type": "MOSTLY_CLEAR"
+        },
+        "relativeHumidity": 72,
+        "uvIndex": 3,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 36,
+            "cardinal": "NORTHEAST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 26,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 30,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-07-23T17:00:00Z",
+          "endTime": "2025-07-24T05:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 85,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 322,
+            "cardinal": "NORTHWEST"
+          },
+          "speed": {
+            "value": 14,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 26,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 20,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 20.9,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 9.2,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 24.6,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 7,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-07-23T05:20:06.062922994Z",
+        "sunsetTime": "2025-07-23T15:34:43.242041476Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WANING_CRESCENT",
+        "moonriseTimes": [
+          "2025-07-23T04:23:02.476810466Z"
+        ],
+        "moonsetTimes": [
+          "2025-07-23T14:01:06.629386656Z"
+        ]
+      },
+      "maxHeatIndex": {
+        "degrees": 24.6,
         "unit": "CELSIUS"
       }
     }
