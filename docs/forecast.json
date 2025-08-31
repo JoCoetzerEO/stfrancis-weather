@@ -2,150 +2,6 @@
   "forecastDays": [
     {
       "interval": {
-        "startTime": "2025-08-30T05:00:00Z",
-        "endTime": "2025-08-31T05:00:00Z"
-      },
-      "displayDate": {
-        "year": 2025,
-        "month": 8,
-        "day": 30
-      },
-      "daytimeForecast": {
-        "interval": {
-          "startTime": "2025-08-30T05:00:00Z",
-          "endTime": "2025-08-30T17:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
-          "description": {
-            "text": "Sunny",
-            "languageCode": "en"
-          },
-          "type": "CLEAR"
-        },
-        "relativeHumidity": 73,
-        "uvIndex": 5,
-        "precipitation": {
-          "probability": {
-            "percent": 5,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 189,
-            "cardinal": "SOUTH"
-          },
-          "speed": {
-            "value": 16,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 31,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 64,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "nighttimeForecast": {
-        "interval": {
-          "startTime": "2025-08-30T17:00:00Z",
-          "endTime": "2025-08-31T05:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
-          "description": {
-            "text": "Clear",
-            "languageCode": "en"
-          },
-          "type": "CLEAR"
-        },
-        "relativeHumidity": 90,
-        "uvIndex": 0,
-        "precipitation": {
-          "probability": {
-            "percent": 0,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 21,
-            "cardinal": "NORTH_NORTHEAST"
-          },
-          "speed": {
-            "value": 16,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 31,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 12,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "maxTemperature": {
-        "degrees": 19.5,
-        "unit": "CELSIUS"
-      },
-      "minTemperature": {
-        "degrees": 13,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMaxTemperature": {
-        "degrees": 24.8,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMinTemperature": {
-        "degrees": 12,
-        "unit": "CELSIUS"
-      },
-      "sunEvents": {
-        "sunriseTime": "2025-08-30T04:41:44.446754426Z",
-        "sunsetTime": "2025-08-30T16:01:23.674888110Z"
-      },
-      "moonEvents": {
-        "moonPhase": "WAXING_CRESCENT",
-        "moonriseTimes": [
-          "2025-08-30T08:08:26.440308578Z"
-        ],
-        "moonsetTimes": [
-          "2025-08-29T22:07:16.117267400Z"
-        ]
-      },
-      "maxHeatIndex": {
-        "degrees": 24.8,
-        "unit": "CELSIUS"
-      }
-    },
-    {
-      "interval": {
         "startTime": "2025-08-31T05:00:00Z",
         "endTime": "2025-09-01T05:00:00Z"
       },
@@ -717,6 +573,150 @@
       },
       "maxHeatIndex": {
         "degrees": 24.7,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-09-04T05:00:00Z",
+        "endTime": "2025-09-05T05:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 9,
+        "day": 4
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-09-04T05:00:00Z",
+          "endTime": "2025-09-04T17:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+          "description": {
+            "text": "Partly sunny",
+            "languageCode": "en"
+          },
+          "type": "PARTLY_CLOUDY"
+        },
+        "relativeHumidity": 71,
+        "uvIndex": 4,
+        "precipitation": {
+          "probability": {
+            "percent": 35,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 1.8542,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 10,
+        "wind": {
+          "direction": {
+            "degrees": 253,
+            "cardinal": "WEST_SOUTHWEST"
+          },
+          "speed": {
+            "value": 29,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 53,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 74,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-09-04T17:00:00Z",
+          "endTime": "2025-09-05T05:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+          "description": {
+            "text": "Partly cloudy",
+            "languageCode": "en"
+          },
+          "type": "PARTLY_CLOUDY"
+        },
+        "relativeHumidity": 79,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 10,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 263,
+            "cardinal": "WEST"
+          },
+          "speed": {
+            "value": 27,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 50,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 81,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 18.6,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 12.8,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 18,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 10,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-09-04T04:35:06.904344347Z",
+        "sunsetTime": "2025-09-04T16:04:50.080852919Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WAXING_GIBBOUS",
+        "moonriseTimes": [
+          "2025-09-04T12:32:48.979085752Z"
+        ],
+        "moonsetTimes": [
+          "2025-09-04T02:35:10.346091890Z"
+        ]
+      },
+      "maxHeatIndex": {
+        "degrees": 18.6,
         "unit": "CELSIUS"
       }
     }
