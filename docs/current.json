@@ -1,7 +1,96 @@
 {
-  "error": {
-    "code": 503,
-    "message": "Time out exceeded before operation was completed. Please try again later or change your input to retrieve less information, for example, shorter time period.",
-    "status": "UNAVAILABLE"
+  "currentTime": "2025-11-03T19:12:13.907188064Z",
+  "timeZone": {
+    "id": "Africa/Johannesburg"
+  },
+  "isDaytime": false,
+  "weatherCondition": {
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+    "description": {
+      "text": "Clear",
+      "languageCode": "en"
+    },
+    "type": "CLEAR"
+  },
+  "temperature": {
+    "degrees": 18.3,
+    "unit": "CELSIUS"
+  },
+  "feelsLikeTemperature": {
+    "degrees": 17.8,
+    "unit": "CELSIUS"
+  },
+  "dewPoint": {
+    "degrees": 15.4,
+    "unit": "CELSIUS"
+  },
+  "heatIndex": {
+    "degrees": 18.3,
+    "unit": "CELSIUS"
+  },
+  "windChill": {
+    "degrees": 17.8,
+    "unit": "CELSIUS"
+  },
+  "relativeHumidity": 84,
+  "uvIndex": 0,
+  "precipitation": {
+    "probability": {
+      "percent": 0,
+      "type": "RAIN"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    }
+  },
+  "thunderstormProbability": 0,
+  "airPressure": {
+    "meanSeaLevelMillibars": 1015.71
+  },
+  "wind": {
+    "direction": {
+      "degrees": 248,
+      "cardinal": "WEST_SOUTHWEST"
+    },
+    "speed": {
+      "value": 14,
+      "unit": "KILOMETERS_PER_HOUR"
+    },
+    "gust": {
+      "value": 27,
+      "unit": "KILOMETERS_PER_HOUR"
+    }
+  },
+  "visibility": {
+    "distance": 16,
+    "unit": "KILOMETERS"
+  },
+  "cloudCover": 0,
+  "currentConditionsHistory": {
+    "temperatureChange": {
+      "degrees": 2.5,
+      "unit": "CELSIUS"
+    },
+    "maxTemperature": {
+      "degrees": 24.3,
+      "unit": "CELSIUS"
+    },
+    "minTemperature": {
+      "degrees": 12.1,
+      "unit": "CELSIUS"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    }
   }
 }
