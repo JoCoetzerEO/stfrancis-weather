@@ -16,12 +16,12 @@
           "endTime": "2026-03-24T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
           "description": {
-            "text": "Sunny",
+            "text": "Light rain",
             "languageCode": "en"
           },
-          "type": "CLEAR"
+          "type": "LIGHT_RAIN"
         },
         "relativeHumidity": 75,
         "uvIndex": 6,
@@ -66,26 +66,26 @@
           "endTime": "2026-03-25T05:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
           "description": {
-            "text": "Light rain",
+            "text": "Rain",
             "languageCode": "en"
           },
-          "type": "LIGHT_RAIN"
+          "type": "RAIN"
         },
         "relativeHumidity": 85,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
-            "percent": 45,
-            "type": "RAIN"
+            "percent": 83,
+            "type": "HEAVY_RAIN"
           },
           "snowQpf": {
             "quantity": 0,
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 6.05,
+            "quantity": 16.9,
             "unit": "MILLIMETERS"
           }
         },
@@ -171,7 +171,7 @@
         "uvIndex": 6,
         "precipitation": {
           "probability": {
-            "percent": 1,
+            "percent": 4,
             "type": "RAIN"
           },
           "snowQpf": {
