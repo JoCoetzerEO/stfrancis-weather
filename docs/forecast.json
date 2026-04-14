@@ -2,150 +2,6 @@
   "forecastDays": [
     {
       "interval": {
-        "startTime": "2026-04-13T05:00:00Z",
-        "endTime": "2026-04-14T05:00:00Z"
-      },
-      "displayDate": {
-        "year": 2026,
-        "month": 4,
-        "day": 13
-      },
-      "daytimeForecast": {
-        "interval": {
-          "startTime": "2026-04-13T05:00:00Z",
-          "endTime": "2026-04-13T17:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
-          "description": {
-            "text": "Sunny",
-            "languageCode": "en"
-          },
-          "type": "CLEAR"
-        },
-        "relativeHumidity": 77,
-        "uvIndex": 5,
-        "precipitation": {
-          "probability": {
-            "percent": 0,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 86,
-            "cardinal": "EAST"
-          },
-          "speed": {
-            "value": 21,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 24,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 7,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "nighttimeForecast": {
-        "interval": {
-          "startTime": "2026-04-13T17:00:00Z",
-          "endTime": "2026-04-14T05:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
-          "description": {
-            "text": "Clear",
-            "languageCode": "en"
-          },
-          "type": "CLEAR"
-        },
-        "relativeHumidity": 88,
-        "uvIndex": 0,
-        "precipitation": {
-          "probability": {
-            "percent": 10,
-            "type": "RAIN"
-          },
-          "snowQpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          },
-          "qpf": {
-            "quantity": 0,
-            "unit": "MILLIMETERS"
-          }
-        },
-        "thunderstormProbability": 0,
-        "wind": {
-          "direction": {
-            "degrees": 41,
-            "cardinal": "NORTHEAST"
-          },
-          "speed": {
-            "value": 21,
-            "unit": "KILOMETERS_PER_HOUR"
-          },
-          "gust": {
-            "value": 23,
-            "unit": "KILOMETERS_PER_HOUR"
-          }
-        },
-        "cloudCover": 67,
-        "iceThickness": {
-          "thickness": 0,
-          "unit": "MILLIMETERS"
-        }
-      },
-      "maxTemperature": {
-        "degrees": 21.2,
-        "unit": "CELSIUS"
-      },
-      "minTemperature": {
-        "degrees": 17,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMaxTemperature": {
-        "degrees": 24.6,
-        "unit": "CELSIUS"
-      },
-      "feelsLikeMinTemperature": {
-        "degrees": 17,
-        "unit": "CELSIUS"
-      },
-      "sunEvents": {
-        "sunriseTime": "2026-04-13T04:42:02.466936214Z",
-        "sunsetTime": "2026-04-13T16:00:01.882825420Z"
-      },
-      "moonEvents": {
-        "moonPhase": "WANING_CRESCENT",
-        "moonriseTimes": [
-          "2026-04-13T00:08:00.058366372Z"
-        ],
-        "moonsetTimes": [
-          "2026-04-13T13:43:04.205541403Z"
-        ]
-      },
-      "maxHeatIndex": {
-        "degrees": 24.6,
-        "unit": "CELSIUS"
-      }
-    },
-    {
-      "interval": {
         "startTime": "2026-04-14T05:00:00Z",
         "endTime": "2026-04-15T05:00:00Z"
       },
@@ -171,7 +27,7 @@
         "uvIndex": 5,
         "precipitation": {
           "probability": {
-            "percent": 5,
+            "percent": 0,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -186,11 +42,11 @@
         "thunderstormProbability": 0,
         "wind": {
           "direction": {
-            "degrees": 325,
-            "cardinal": "NORTHWEST"
+            "degrees": 333,
+            "cardinal": "NORTH_NORTHWEST"
           },
           "speed": {
-            "value": 16,
+            "value": 14,
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
@@ -198,7 +54,7 @@
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 60,
+        "cloudCover": 25,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
@@ -217,7 +73,7 @@
           },
           "type": "CLEAR"
         },
-        "relativeHumidity": 83,
+        "relativeHumidity": 82,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
@@ -244,26 +100,26 @@
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 37,
+            "value": 35,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 69,
+        "cloudCover": 66,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
         }
       },
       "maxTemperature": {
-        "degrees": 27.3,
+        "degrees": 27.5,
         "unit": "CELSIUS"
       },
       "minTemperature": {
-        "degrees": 19,
+        "degrees": 19.1,
         "unit": "CELSIUS"
       },
       "feelsLikeMaxTemperature": {
-        "degrees": 27.6,
+        "degrees": 27.8,
         "unit": "CELSIUS"
       },
       "feelsLikeMinTemperature": {
@@ -284,7 +140,7 @@
         ]
       },
       "maxHeatIndex": {
-        "degrees": 27.6,
+        "degrees": 27.8,
         "unit": "CELSIUS"
       }
     },
@@ -311,11 +167,11 @@
           },
           "type": "CLOUDY"
         },
-        "relativeHumidity": 75,
+        "relativeHumidity": 74,
         "uvIndex": 1,
         "precipitation": {
           "probability": {
-            "percent": 35,
+            "percent": 25,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -323,7 +179,7 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 0.46,
+            "quantity": 0.36,
             "unit": "MILLIMETERS"
           }
         },
@@ -354,14 +210,14 @@
           "endTime": "2026-04-16T05:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
           "description": {
-            "text": "Mostly cloudy",
+            "text": "Partly cloudy",
             "languageCode": "en"
           },
-          "type": "MOSTLY_CLOUDY"
+          "type": "PARTLY_CLOUDY"
         },
-        "relativeHumidity": 79,
+        "relativeHumidity": 78,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
@@ -380,30 +236,30 @@
         "thunderstormProbability": 0,
         "wind": {
           "direction": {
-            "degrees": 327,
-            "cardinal": "NORTH_NORTHWEST"
+            "degrees": 322,
+            "cardinal": "NORTHWEST"
           },
           "speed": {
             "value": 14,
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 21,
+            "value": 23,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 97,
+        "cloudCover": 99,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
         }
       },
       "maxTemperature": {
-        "degrees": 19,
+        "degrees": 19.2,
         "unit": "CELSIUS"
       },
       "minTemperature": {
-        "degrees": 16.5,
+        "degrees": 16.4,
         "unit": "CELSIUS"
       },
       "feelsLikeMaxTemperature": {
@@ -411,7 +267,7 @@
         "unit": "CELSIUS"
       },
       "feelsLikeMinTemperature": {
-        "degrees": 16.5,
+        "degrees": 16.4,
         "unit": "CELSIUS"
       },
       "sunEvents": {
@@ -448,18 +304,18 @@
           "endTime": "2026-04-16T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_sunny",
           "description": {
-            "text": "Partly sunny",
+            "text": "Mostly sunny",
             "languageCode": "en"
           },
-          "type": "PARTLY_CLOUDY"
+          "type": "MOSTLY_CLEAR"
         },
         "relativeHumidity": 79,
         "uvIndex": 4,
         "precipitation": {
           "probability": {
-            "percent": 10,
+            "percent": 5,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -474,19 +330,19 @@
         "thunderstormProbability": 0,
         "wind": {
           "direction": {
-            "degrees": 81,
+            "degrees": 83,
             "cardinal": "EAST"
           },
           "speed": {
-            "value": 16,
+            "value": 18,
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 19,
+            "value": 24,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 67,
+        "cloudCover": 45,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
@@ -498,18 +354,18 @@
           "endTime": "2026-04-17T05:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
           "description": {
-            "text": "Partly cloudy",
+            "text": "Clear with periodic clouds",
             "languageCode": "en"
           },
-          "type": "PARTLY_CLOUDY"
+          "type": "MOSTLY_CLEAR"
         },
-        "relativeHumidity": 94,
+        "relativeHumidity": 93,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
-            "percent": 10,
+            "percent": 15,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -517,33 +373,33 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 0,
+            "quantity": 0.09,
             "unit": "MILLIMETERS"
           }
         },
-        "thunderstormProbability": 0,
+        "thunderstormProbability": 30,
         "wind": {
           "direction": {
-            "degrees": 317,
-            "cardinal": "NORTHWEST"
+            "degrees": 0,
+            "cardinal": "NORTH"
           },
           "speed": {
-            "value": 18,
+            "value": 16,
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 19,
+            "value": 18,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 78,
+        "cloudCover": 68,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
         }
       },
       "maxTemperature": {
-        "degrees": 21.1,
+        "degrees": 20.6,
         "unit": "CELSIUS"
       },
       "minTemperature": {
@@ -551,7 +407,7 @@
         "unit": "CELSIUS"
       },
       "feelsLikeMaxTemperature": {
-        "degrees": 24.8,
+        "degrees": 24.5,
         "unit": "CELSIUS"
       },
       "feelsLikeMinTemperature": {
@@ -572,7 +428,7 @@
         ]
       },
       "maxHeatIndex": {
-        "degrees": 24.8,
+        "degrees": 24.5,
         "unit": "CELSIUS"
       }
     },
@@ -599,11 +455,11 @@
           },
           "type": "LIGHT_RAIN"
         },
-        "relativeHumidity": 85,
+        "relativeHumidity": 87,
         "uvIndex": 4,
         "precipitation": {
           "probability": {
-            "percent": 55,
+            "percent": 50,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -611,14 +467,14 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 5.85,
+            "quantity": 3.72,
             "unit": "MILLIMETERS"
           }
         },
-        "thunderstormProbability": 10,
+        "thunderstormProbability": 20,
         "wind": {
           "direction": {
-            "degrees": 242,
+            "degrees": 246,
             "cardinal": "WEST_SOUTHWEST"
           },
           "speed": {
@@ -626,11 +482,11 @@
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 29,
+            "value": 27,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 95,
+        "cloudCover": 78,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
@@ -642,18 +498,18 @@
           "endTime": "2026-04-18T05:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
           "description": {
-            "text": "Clear with periodic clouds",
+            "text": "Clear",
             "languageCode": "en"
           },
-          "type": "MOSTLY_CLEAR"
+          "type": "CLEAR"
         },
-        "relativeHumidity": 74,
+        "relativeHumidity": 73,
         "uvIndex": 0,
         "precipitation": {
           "probability": {
-            "percent": 25,
+            "percent": 20,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -661,14 +517,14 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 0.31,
+            "quantity": 0.4,
             "unit": "MILLIMETERS"
           }
         },
-        "thunderstormProbability": 10,
+        "thunderstormProbability": 20,
         "wind": {
           "direction": {
-            "degrees": 269,
+            "degrees": 276,
             "cardinal": "WEST"
           },
           "speed": {
@@ -676,26 +532,26 @@
             "unit": "KILOMETERS_PER_HOUR"
           },
           "gust": {
-            "value": 40,
+            "value": 35,
             "unit": "KILOMETERS_PER_HOUR"
           }
         },
-        "cloudCover": 69,
+        "cloudCover": 54,
         "iceThickness": {
           "thickness": 0,
           "unit": "MILLIMETERS"
         }
       },
       "maxTemperature": {
-        "degrees": 19.5,
+        "degrees": 19.7,
         "unit": "CELSIUS"
       },
       "minTemperature": {
-        "degrees": 15.2,
+        "degrees": 15.3,
         "unit": "CELSIUS"
       },
       "feelsLikeMaxTemperature": {
-        "degrees": 24.6,
+        "degrees": 24.5,
         "unit": "CELSIUS"
       },
       "feelsLikeMinTemperature": {
@@ -716,7 +572,151 @@
         ]
       },
       "maxHeatIndex": {
-        "degrees": 24.6,
+        "degrees": 24.5,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2026-04-18T05:00:00Z",
+        "endTime": "2026-04-19T05:00:00Z"
+      },
+      "displayDate": {
+        "year": 2026,
+        "month": 4,
+        "day": 18
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2026-04-18T05:00:00Z",
+          "endTime": "2026-04-18T17:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+          "description": {
+            "text": "Sunny",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 54,
+        "uvIndex": 4,
+        "precipitation": {
+          "probability": {
+            "percent": 10,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 258,
+            "cardinal": "WEST_SOUTHWEST"
+          },
+          "speed": {
+            "value": 27,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 35,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 77,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2026-04-18T17:00:00Z",
+          "endTime": "2026-04-19T05:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 72,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 5,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 331,
+            "cardinal": "NORTH_NORTHWEST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 29,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 59,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 19,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 14.4,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 24.5,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 13,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2026-04-18T04:45:50.270532115Z",
+        "sunsetTime": "2026-04-18T15:53:53.298328103Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WAXING_CRESCENT",
+        "moonriseTimes": [
+          "2026-04-18T05:46:28.913339473Z"
+        ],
+        "moonsetTimes": [
+          "2026-04-18T16:18:05.830861691Z"
+        ]
+      },
+      "maxHeatIndex": {
+        "degrees": 24.5,
         "unit": "CELSIUS"
       }
     }
