@@ -16,18 +16,18 @@
           "endTime": "2026-05-11T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
           "description": {
-            "text": "Cloudy",
+            "text": "Light rain",
             "languageCode": "en"
           },
-          "type": "CLOUDY"
+          "type": "LIGHT_RAIN"
         },
         "relativeHumidity": 50,
         "uvIndex": 1,
         "precipitation": {
           "probability": {
-            "percent": 22,
+            "percent": 43,
             "type": "RAIN"
           },
           "snowQpf": {
@@ -35,7 +35,7 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 0,
+            "quantity": 3.11,
             "unit": "MILLIMETERS"
           }
         },
@@ -68,10 +68,10 @@
         "weatherCondition": {
           "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
           "description": {
-            "text": "Rain showers",
+            "text": "Rain",
             "languageCode": "en"
           },
-          "type": "RAIN_SHOWERS"
+          "type": "RAIN"
         },
         "relativeHumidity": 81,
         "uvIndex": 0,
@@ -85,7 +85,7 @@
             "unit": "MILLIMETERS"
           },
           "qpf": {
-            "quantity": 13.66,
+            "quantity": 10.89,
             "unit": "MILLIMETERS"
           }
         },
