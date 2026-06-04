@@ -1,96 +1,97 @@
 {
-  "currentTime": "2026-06-04T08:14:40.173161910Z",
   "timeZone": {
-    "id": "Africa/Johannesburg"
+    "id": "Africa/Johannesburg",
+    "version": ""
   },
-  "isDaytime": true,
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/heavy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
     "description": {
-      "text": "Moderate to heavy rain",
+      "text": "Rain",
       "languageCode": "en"
     },
-    "type": "MODERATE_TO_HEAVY_RAIN"
+    "type": "RAIN"
   },
   "temperature": {
-    "degrees": 14.9,
-    "unit": "CELSIUS"
+    "unit": "CELSIUS",
+    "degrees": 15.3
   },
   "feelsLikeTemperature": {
-    "degrees": 13.2,
-    "unit": "CELSIUS"
+    "unit": "CELSIUS",
+    "degrees": 14
   },
   "dewPoint": {
-    "degrees": 12.7,
-    "unit": "CELSIUS"
+    "unit": "CELSIUS",
+    "degrees": 12.9
   },
   "heatIndex": {
-    "degrees": 14.9,
-    "unit": "CELSIUS"
+    "unit": "CELSIUS",
+    "degrees": 15.3
   },
   "windChill": {
-    "degrees": 13.2,
-    "unit": "CELSIUS"
+    "unit": "CELSIUS",
+    "degrees": 14
   },
-  "relativeHumidity": 86,
-  "uvIndex": 0,
   "precipitation": {
     "probability": {
-      "percent": 81,
-      "type": "HEAVY_RAIN"
+      "type": "RAIN",
+      "percent": 61
     },
     "snowQpf": {
-      "quantity": 0,
-      "unit": "MILLIMETERS"
+      "unit": "MILLIMETERS",
+      "quantity": 0
     },
     "qpf": {
-      "quantity": 3.18,
-      "unit": "MILLIMETERS"
+      "unit": "MILLIMETERS",
+      "quantity": 2.5
     }
   },
-  "thunderstormProbability": 20,
   "airPressure": {
-    "meanSeaLevelMillibars": 1015.39
+    "meanSeaLevelMillibars": 1014.14
   },
   "wind": {
     "direction": {
-      "degrees": 154,
-      "cardinal": "SOUTH_SOUTHEAST"
+      "cardinal": "SOUTH_SOUTHEAST",
+      "degrees": 161
     },
     "speed": {
-      "value": 21,
-      "unit": "KILOMETERS_PER_HOUR"
+      "unit": "KILOMETERS_PER_HOUR",
+      "value": 21
     },
     "gust": {
-      "value": 25,
-      "unit": "KILOMETERS_PER_HOUR"
+      "unit": "KILOMETERS_PER_HOUR",
+      "value": 31
     }
   },
   "visibility": {
-    "distance": 10,
-    "unit": "KILOMETERS"
+    "unit": "KILOMETERS",
+    "distance": 11
   },
-  "cloudCover": 99,
   "currentConditionsHistory": {
     "temperatureChange": {
-      "degrees": -1.6,
-      "unit": "CELSIUS"
+      "unit": "CELSIUS",
+      "degrees": -0.7
     },
     "maxTemperature": {
-      "degrees": 16.6,
-      "unit": "CELSIUS"
+      "unit": "CELSIUS",
+      "degrees": 16
     },
     "minTemperature": {
-      "degrees": 14.1,
-      "unit": "CELSIUS"
+      "unit": "CELSIUS",
+      "degrees": 14.1
     },
     "snowQpf": {
-      "quantity": 0,
-      "unit": "MILLIMETERS"
+      "unit": "MILLIMETERS",
+      "quantity": 0
     },
     "qpf": {
-      "quantity": 70.81,
-      "unit": "MILLIMETERS"
+      "unit": "MILLIMETERS",
+      "quantity": 72.84
     }
-  }
+  },
+  "currentTime": "2026-06-04T11:47:00.354039122Z",
+  "isDaytime": true,
+  "relativeHumidity": 85,
+  "uvIndex": 0,
+  "thunderstormProbability": 20,
+  "cloudCover": 98
 }
