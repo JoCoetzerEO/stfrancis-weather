@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
     "description": {
-      "text": "Clear with periodic clouds",
+      "text": "Cloudy",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLEAR"
+    "type": "CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 11.6
+    "degrees": 12.2
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 9
+    "degrees": 10.3
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 7
+    "degrees": 6.8
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 11.6
+    "degrees": 12.2
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 9
+    "degrees": 10.3
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 0
+      "percent": 10
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1018.6
+    "meanSeaLevelMillibars": 1020.26
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST_NORTHWEST",
-      "degrees": 290
+      "cardinal": "NORTHWEST",
+      "degrees": 312
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 21
+      "value": 18
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 27
+      "value": 22
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -1.9
+      "degrees": -1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -77,7 +77,7 @@
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 12.2
+      "degrees": 10.9
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 2.96
+      "quantity": 2.08
     }
   },
-  "currentTime": "2026-06-06T02:40:45.169011377Z",
-  "isDaytime": false,
-  "relativeHumidity": 73,
+  "currentTime": "2026-06-06T06:25:31.238311724Z",
+  "isDaytime": true,
+  "relativeHumidity": 69,
   "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 19
+  "cloudCover": 91
 }
