@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_sunny",
     "description": {
-      "text": "Partly sunny",
+      "text": "Mostly sunny",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "MOSTLY_CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 21.8
+    "degrees": 23.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 24.6
+    "degrees": 25.4
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 14.6
+    "degrees": 15.3
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 24.6
+    "degrees": 25.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 21.8
+    "degrees": 23.9
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 9
+      "percent": 0
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1020.59
+    "meanSeaLevelMillibars": 1019.17
   },
   "wind": {
     "direction": {
-      "cardinal": "NORTHWEST",
-      "degrees": 325
+      "cardinal": "WEST_NORTHWEST",
+      "degrees": 302
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 14
+      "value": 8
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 17
+      "value": 11
     }
   },
   "visibility": {
@@ -69,11 +69,11 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 4.8
+      "degrees": 2.1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 22.5
+      "degrees": 23.5
     },
     "minTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 0.01
     }
   },
-  "currentTime": "2026-06-21T08:24:17.824546151Z",
+  "currentTime": "2026-06-21T11:41:18.999406633Z",
   "isDaytime": true,
-  "relativeHumidity": 63,
+  "relativeHumidity": 58,
   "uvIndex": 1,
-  "thunderstormProbability": 6,
-  "cloudCover": 42
+  "thunderstormProbability": 0,
+  "cloudCover": 22
 }
