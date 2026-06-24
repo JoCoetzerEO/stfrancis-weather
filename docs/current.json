@@ -4,32 +4,32 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
     "description": {
-      "text": "Partly cloudy",
+      "text": "Clear with periodic clouds",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "MOSTLY_CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 15.3
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 15.2
+    "degrees": 14.3
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 13.4
+    "degrees": 13.3
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 15.3
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 15.2
+    "degrees": 14.3
   },
   "precipitation": {
     "probability": {
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.08
+      "quantity": 0
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1026.03
+    "meanSeaLevelMillibars": 1026.06
   },
   "wind": {
     "direction": {
-      "cardinal": "EAST",
-      "degrees": 89
+      "cardinal": "EAST_NORTHEAST",
+      "degrees": 61
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 14
+      "value": 16
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 20
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -0.5
+      "degrees": -0.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0.42
     }
   },
-  "currentTime": "2026-06-24T18:47:26.576197667Z",
+  "currentTime": "2026-06-24T20:43:59.375564960Z",
   "isDaytime": false,
-  "relativeHumidity": 86,
+  "relativeHumidity": 88,
   "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 34
+  "cloudCover": 20
 }
