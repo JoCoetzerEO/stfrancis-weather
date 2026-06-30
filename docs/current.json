@@ -4,20 +4,20 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
     "description": {
-      "text": "Clear",
+      "text": "Partly cloudy",
       "languageCode": "en"
     },
-    "type": "CLEAR"
+    "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 14.7
+    "degrees": 13.3
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 14.7
+    "degrees": 13.1
   },
   "dewPoint": {
     "unit": "CELSIUS",
@@ -25,16 +25,16 @@
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 14.7
+    "degrees": 13.3
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 14.7
+    "degrees": 13.1
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 0
+      "percent": 4
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1019.71
+    "meanSeaLevelMillibars": 1019.77
   },
   "wind": {
     "direction": {
-      "cardinal": "EAST",
-      "degrees": 89
+      "cardinal": "NORTHEAST",
+      "degrees": 49
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 10
+      "value": 6
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 11
+      "value": 13
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 1.2
+      "degrees": 0.9
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.17
+      "quantity": 0.09
     }
   },
-  "currentTime": "2026-06-30T16:20:29.688385970Z",
+  "currentTime": "2026-06-30T18:53:16.203205608Z",
   "isDaytime": false,
-  "relativeHumidity": 75,
+  "relativeHumidity": 82,
   "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 3
+  "cloudCover": 46
 }
