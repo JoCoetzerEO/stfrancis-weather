@@ -13,11 +13,11 @@
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 13.7
+    "degrees": 13.6
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 13.7
+    "degrees": 13.6
   },
   "dewPoint": {
     "unit": "CELSIUS",
@@ -25,16 +25,16 @@
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 13.7
+    "degrees": 13.6
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 13.7
+    "degrees": 13.6
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 46
+      "percent": 26
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,20 +42,20 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.67
+      "quantity": 1.04
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1023.83
+    "meanSeaLevelMillibars": 1023.79
   },
   "wind": {
     "direction": {
-      "cardinal": "NORTH",
-      "degrees": 5
+      "cardinal": "NORTH_NORTHEAST",
+      "degrees": 13
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 3
+      "value": 5
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.2
+      "degrees": -0.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 3.61
+      "quantity": 4.65
     }
   },
-  "currentTime": "2026-07-10T20:17:40.217972538Z",
+  "currentTime": "2026-07-10T21:56:06.977251561Z",
   "isDaytime": false,
   "relativeHumidity": 88,
   "uvIndex": 0,
   "thunderstormProbability": 10,
-  "cloudCover": 99
+  "cloudCover": 85
 }
