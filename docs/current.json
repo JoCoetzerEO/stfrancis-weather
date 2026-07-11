@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
     "description": {
-      "text": "Partly cloudy",
+      "text": "Clear",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 14.3
+    "degrees": 13.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 14
+    "degrees": 13
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 11.4
+    "degrees": 11.2
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 14.3
+    "degrees": 13.9
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 14
+    "degrees": 13
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 14
+      "percent": 0
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,16 +42,16 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.09
+      "quantity": 0.1
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1025.67
+    "meanSeaLevelMillibars": 1025.58
   },
   "wind": {
     "direction": {
       "cardinal": "EAST_NORTHEAST",
-      "degrees": 61
+      "degrees": 64
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
@@ -59,7 +59,7 @@
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 13
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.6
+      "degrees": 0.3
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 5.57
+      "quantity": 4.63
     }
   },
-  "currentTime": "2026-07-11T20:02:49.299347748Z",
+  "currentTime": "2026-07-11T21:42:48.782287827Z",
   "isDaytime": false,
-  "relativeHumidity": 82,
+  "relativeHumidity": 84,
   "uvIndex": 0,
-  "thunderstormProbability": 10,
-  "cloudCover": 40
+  "thunderstormProbability": 0,
+  "cloudCover": 10
 }
