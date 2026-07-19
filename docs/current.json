@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
     "description": {
-      "text": "Light rain",
+      "text": "Rain",
       "languageCode": "en"
     },
-    "type": "LIGHT_RAIN"
+    "type": "RAIN"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15.7
+    "degrees": 15.1
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 14.1
+    "degrees": 13.1
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 11.9
+    "degrees": 11.7
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15.7
+    "degrees": 15.1
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 14.1
+    "degrees": 13.1
   },
   "precipitation": {
     "probability": {
-      "type": "LIGHT_RAIN",
-      "percent": 38
+      "type": "RAIN",
+      "percent": 62
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1016.05
+    "meanSeaLevelMillibars": 1016.72
   },
   "wind": {
     "direction": {
       "cardinal": "WEST",
-      "degrees": 260
+      "degrees": 262
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 34
+      "value": 32
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 37
+      "value": 47
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -0.8
+      "degrees": -0.7
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-07-19T16:51:54.041527493Z",
+  "currentTime": "2026-07-19T17:53:43.308772675Z",
   "isDaytime": false,
-  "relativeHumidity": 78,
+  "relativeHumidity": 80,
   "uvIndex": 0,
-  "thunderstormProbability": 17,
-  "cloudCover": 70
+  "thunderstormProbability": 20,
+  "cloudCover": 73
 }
