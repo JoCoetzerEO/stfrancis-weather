@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
     "description": {
-      "text": "Light to moderate rain",
+      "text": "Light rain",
       "languageCode": "en"
     },
-    "type": "LIGHT_TO_MODERATE_RAIN"
+    "type": "LIGHT_RAIN"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15
+    "degrees": 14.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 12.8
+    "degrees": 12
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 12
+    "degrees": 11.5
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15
+    "degrees": 14.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 12.8
+    "degrees": 12
   },
   "precipitation": {
     "probability": {
-      "type": "RAIN",
-      "percent": 70
+      "type": "LIGHT_RAIN",
+      "percent": 55
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.58
+      "quantity": 1.35
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1022.41
+    "meanSeaLevelMillibars": 1024.67
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST_SOUTHWEST",
-      "degrees": 246
+      "cardinal": "SOUTHWEST",
+      "degrees": 234
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 40
+      "value": 31
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 50
+      "value": 44
     }
   },
   "visibility": {
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.58
+      "quantity": 3.48
     }
   },
-  "currentTime": "2026-07-23T17:14:20.080206288Z",
+  "currentTime": "2026-07-23T19:06:13.531467783Z",
   "isDaytime": false,
-  "relativeHumidity": 81,
+  "relativeHumidity": 83,
   "uvIndex": 0,
   "thunderstormProbability": 20,
-  "cloudCover": 89
+  "cloudCover": 87
 }
