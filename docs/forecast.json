@@ -66,12 +66,12 @@
           "endTime": "2026-07-24T05:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
           "description": {
-            "text": "Partly cloudy",
+            "text": "Chance of showers",
             "languageCode": "en"
           },
-          "type": "PARTLY_CLOUDY"
+          "type": "CHANCE_OF_SHOWERS"
         },
         "precipitation": {
           "probability": {
@@ -84,7 +84,7 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 8.29
+            "quantity": 9.19
           }
         },
         "wind": {
@@ -170,7 +170,7 @@
         "precipitation": {
           "probability": {
             "type": "RAIN",
-            "percent": 5
+            "percent": 15
           },
           "snowQpf": {
             "unit": "MILLIMETERS",
@@ -178,7 +178,7 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 0
+            "quantity": 0.09
           }
         },
         "wind": {
