@@ -16,12 +16,12 @@
           "endTime": "2026-08-10T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/showers",
           "description": {
-            "text": "Light rain",
+            "text": "Rain",
             "languageCode": "en"
           },
-          "type": "LIGHT_RAIN"
+          "type": "RAIN"
         },
         "precipitation": {
           "probability": {
@@ -34,13 +34,13 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 6.34
+            "quantity": 7.18
           }
         },
         "wind": {
           "direction": {
             "cardinal": "SOUTH",
-            "degrees": 169
+            "degrees": 171
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
@@ -48,15 +48,15 @@
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 39
+            "value": 40
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 74,
-        "uvIndex": 3,
+        "relativeHumidity": 75,
+        "uvIndex": 2,
         "thunderstormProbability": 10,
         "cloudCover": 95
       },
@@ -76,7 +76,7 @@
         "precipitation": {
           "probability": {
             "type": "RAIN",
-            "percent": 55
+            "percent": 50
           },
           "snowQpf": {
             "unit": "MILLIMETERS",
@@ -84,13 +84,13 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 5.26
+            "quantity": 3.96
           }
         },
         "wind": {
           "direction": {
             "cardinal": "EAST_SOUTHEAST",
-            "degrees": 114
+            "degrees": 116
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
@@ -98,21 +98,21 @@
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 31
+            "value": 26
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 80,
+        "relativeHumidity": 81,
         "uvIndex": 0,
         "thunderstormProbability": 10,
-        "cloudCover": 99
+        "cloudCover": 93
       },
       "maxTemperature": {
         "unit": "CELSIUS",
-        "degrees": 14.3
+        "degrees": 14.5
       },
       "minTemperature": {
         "unit": "CELSIUS",
@@ -141,7 +141,7 @@
       },
       "maxHeatIndex": {
         "unit": "CELSIUS",
-        "degrees": 14.3
+        "degrees": 14.5
       }
     },
     {
@@ -162,15 +162,15 @@
         "weatherCondition": {
           "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
           "description": {
-            "text": "Light rain",
+            "text": "Chance of showers",
             "languageCode": "en"
           },
-          "type": "LIGHT_RAIN"
+          "type": "CHANCE_OF_SHOWERS"
         },
         "precipitation": {
           "probability": {
             "type": "RAIN",
-            "percent": 50
+            "percent": 40
           },
           "snowQpf": {
             "unit": "MILLIMETERS",
@@ -178,31 +178,31 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 3.8
+            "quantity": 2.21
           }
         },
         "wind": {
           "direction": {
             "cardinal": "EAST",
-            "degrees": 87
+            "degrees": 88
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 31
+            "value": 29
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 40
+            "value": 35
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 73,
-        "uvIndex": 2,
+        "relativeHumidity": 70,
+        "uvIndex": 3,
         "thunderstormProbability": 10,
-        "cloudCover": 97
+        "cloudCover": 87
       },
       "nighttimeForecast": {
         "interval": {
@@ -228,13 +228,13 @@
           },
           "qpf": {
             "unit": "MILLIMETERS",
-            "quantity": 1.16
+            "quantity": 1.55
           }
         },
         "wind": {
           "direction": {
             "cardinal": "EAST_NORTHEAST",
-            "degrees": 65
+            "degrees": 66
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
@@ -242,25 +242,25 @@
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 40
+            "value": 34
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 78,
+        "relativeHumidity": 76,
         "uvIndex": 0,
         "thunderstormProbability": 10,
-        "cloudCover": 99
+        "cloudCover": 81
       },
       "maxTemperature": {
         "unit": "CELSIUS",
-        "degrees": 16.1
+        "degrees": 16.4
       },
       "minTemperature": {
         "unit": "CELSIUS",
-        "degrees": 12.4
+        "degrees": 12.2
       },
       "feelsLikeMaxTemperature": {
         "unit": "CELSIUS",
@@ -285,7 +285,7 @@
       },
       "maxHeatIndex": {
         "unit": "CELSIUS",
-        "degrees": 16.1
+        "degrees": 16.4
       }
     },
     {
@@ -343,10 +343,10 @@
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 67,
-        "uvIndex": 3,
+        "relativeHumidity": 68,
+        "uvIndex": 4,
         "thunderstormProbability": 0,
-        "cloudCover": 9
+        "cloudCover": 6
       },
       "nighttimeForecast": {
         "interval": {
@@ -382,29 +382,29 @@
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 39
+            "value": 40
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 43
+            "value": 45
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 76,
+        "relativeHumidity": 77,
         "uvIndex": 0,
         "thunderstormProbability": 0,
         "cloudCover": 0
       },
       "maxTemperature": {
         "unit": "CELSIUS",
-        "degrees": 18.6
+        "degrees": 18.7
       },
       "minTemperature": {
         "unit": "CELSIUS",
-        "degrees": 12.8
+        "degrees": 13
       },
       "feelsLikeMaxTemperature": {
         "unit": "CELSIUS",
@@ -429,7 +429,7 @@
       },
       "maxHeatIndex": {
         "unit": "CELSIUS",
-        "degrees": 18.6
+        "degrees": 18.7
       }
     },
     {
@@ -476,11 +476,11 @@
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 26
+            "value": 24
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 29
+            "value": 27
           }
         },
         "iceThickness": {
@@ -522,25 +522,25 @@
         "wind": {
           "direction": {
             "cardinal": "NORTHEAST",
-            "degrees": 40
+            "degrees": 38
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 26
+            "value": 24
           },
           "gust": {
             "unit": "KILOMETERS_PER_HOUR",
-            "value": 31
+            "value": 34
           }
         },
         "iceThickness": {
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 68,
+        "relativeHumidity": 67,
         "uvIndex": 0,
         "thunderstormProbability": 0,
-        "cloudCover": 0
+        "cloudCover": 2
       },
       "maxTemperature": {
         "unit": "CELSIUS",
@@ -548,7 +548,7 @@
       },
       "minTemperature": {
         "unit": "CELSIUS",
-        "degrees": 12.9
+        "degrees": 13.1
       },
       "feelsLikeMaxTemperature": {
         "unit": "CELSIUS",
@@ -592,12 +592,12 @@
           "endTime": "2026-08-14T17:00:00Z"
         },
         "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
           "description": {
-            "text": "Sunny",
+            "text": "Partly sunny",
             "languageCode": "en"
           },
-          "type": "CLEAR"
+          "type": "PARTLY_CLOUDY"
         },
         "precipitation": {
           "probability": {
@@ -616,57 +616,7 @@
         "wind": {
           "direction": {
             "cardinal": "NORTH_NORTHEAST",
-            "degrees": 19
-          },
-          "speed": {
-            "unit": "KILOMETERS_PER_HOUR",
-            "value": 18
-          },
-          "gust": {
-            "unit": "KILOMETERS_PER_HOUR",
-            "value": 23
-          }
-        },
-        "iceThickness": {
-          "unit": "MILLIMETERS",
-          "thickness": 0
-        },
-        "relativeHumidity": 45,
-        "uvIndex": 4,
-        "thunderstormProbability": 0,
-        "cloudCover": 27
-      },
-      "nighttimeForecast": {
-        "interval": {
-          "startTime": "2026-08-14T17:00:00Z",
-          "endTime": "2026-08-15T05:00:00Z"
-        },
-        "weatherCondition": {
-          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
-          "description": {
-            "text": "Partly cloudy",
-            "languageCode": "en"
-          },
-          "type": "PARTLY_CLOUDY"
-        },
-        "precipitation": {
-          "probability": {
-            "type": "RAIN",
-            "percent": 5
-          },
-          "snowQpf": {
-            "unit": "MILLIMETERS",
-            "quantity": 0
-          },
-          "qpf": {
-            "unit": "MILLIMETERS",
-            "quantity": 0
-          }
-        },
-        "wind": {
-          "direction": {
-            "cardinal": "NORTH_NORTHWEST",
-            "degrees": 334
+            "degrees": 16
           },
           "speed": {
             "unit": "KILOMETERS_PER_HOUR",
@@ -681,14 +631,64 @@
           "unit": "MILLIMETERS",
           "thickness": 0
         },
-        "relativeHumidity": 75,
+        "relativeHumidity": 44,
+        "uvIndex": 3,
+        "thunderstormProbability": 0,
+        "cloudCover": 40
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2026-08-14T17:00:00Z",
+          "endTime": "2026-08-15T05:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
+          "description": {
+            "text": "Cloudy",
+            "languageCode": "en"
+          },
+          "type": "CLOUDY"
+        },
+        "precipitation": {
+          "probability": {
+            "type": "RAIN",
+            "percent": 10
+          },
+          "snowQpf": {
+            "unit": "MILLIMETERS",
+            "quantity": 0
+          },
+          "qpf": {
+            "unit": "MILLIMETERS",
+            "quantity": 0
+          }
+        },
+        "wind": {
+          "direction": {
+            "cardinal": "NORTHWEST",
+            "degrees": 325
+          },
+          "speed": {
+            "unit": "KILOMETERS_PER_HOUR",
+            "value": 21
+          },
+          "gust": {
+            "unit": "KILOMETERS_PER_HOUR",
+            "value": 27
+          }
+        },
+        "iceThickness": {
+          "unit": "MILLIMETERS",
+          "thickness": 0
+        },
+        "relativeHumidity": 74,
         "uvIndex": 0,
         "thunderstormProbability": 0,
-        "cloudCover": 62
+        "cloudCover": 94
       },
       "maxTemperature": {
         "unit": "CELSIUS",
-        "degrees": 27.1
+        "degrees": 27.4
       },
       "minTemperature": {
         "unit": "CELSIUS",
@@ -696,7 +696,7 @@
       },
       "feelsLikeMaxTemperature": {
         "unit": "CELSIUS",
-        "degrees": 27.1
+        "degrees": 27.4
       },
       "feelsLikeMinTemperature": {
         "unit": "CELSIUS",
@@ -717,7 +717,7 @@
       },
       "maxHeatIndex": {
         "unit": "CELSIUS",
-        "degrees": 27.1
+        "degrees": 27.4
       }
     }
   ],
