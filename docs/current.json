@@ -4,20 +4,20 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
     "description": {
-      "text": "Partly cloudy",
+      "text": "Light rain",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "LIGHT_RAIN"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 11.6
+    "degrees": 11
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 10
+    "degrees": 9
   },
   "dewPoint": {
     "unit": "CELSIUS",
@@ -25,16 +25,16 @@
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 11.6
+    "degrees": 11
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 10
+    "degrees": 9
   },
   "precipitation": {
     "probability": {
-      "type": "NONE",
-      "percent": 21
+      "type": "RAIN",
+      "percent": 42
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.18
+      "quantity": 0.39
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1031.66
+    "meanSeaLevelMillibars": 1032.96
   },
   "wind": {
     "direction": {
       "cardinal": "SOUTH_SOUTHWEST",
-      "degrees": 208
+      "degrees": 205
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 14
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 23
+      "value": 21
     }
   },
   "visibility": {
@@ -69,15 +69,15 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -2.7
+      "degrees": -2.8
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 14.3
+      "degrees": 13.8
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 12
+      "degrees": 10.9
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 10.67
+      "quantity": 11.13
     }
   },
-  "currentTime": "2026-08-10T03:47:40.776706467Z",
-  "isDaytime": false,
-  "relativeHumidity": 78,
+  "currentTime": "2026-08-10T05:20:16.986072074Z",
+  "isDaytime": true,
+  "relativeHumidity": 81,
   "uvIndex": 0,
   "thunderstormProbability": 10,
-  "cloudCover": 63
+  "cloudCover": 95
 }
