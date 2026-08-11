@@ -4,16 +4,16 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
     "description": {
-      "text": "Light rain",
+      "text": "Mostly cloudy",
       "languageCode": "en"
     },
-    "type": "LIGHT_RAIN"
+    "type": "MOSTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 12
+    "degrees": 11.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
@@ -25,7 +25,7 @@
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 12
+    "degrees": 11.9
   },
   "windChill": {
     "unit": "CELSIUS",
@@ -34,7 +34,7 @@
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 42
+      "percent": 25
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.57
+      "quantity": 0.29
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1038.08
+    "meanSeaLevelMillibars": 1038.95
   },
   "wind": {
     "direction": {
       "cardinal": "EAST",
-      "degrees": 95
+      "degrees": 80
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 13
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 20
+      "value": 26
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.9
+      "degrees": 1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 12.11
+      "quantity": 11.83
     }
   },
-  "currentTime": "2026-08-11T03:37:47.396152557Z",
+  "currentTime": "2026-08-11T05:01:39.356167608Z",
   "isDaytime": false,
-  "relativeHumidity": 83,
+  "relativeHumidity": 84,
   "uvIndex": 0,
   "thunderstormProbability": 10,
-  "cloudCover": 93
+  "cloudCover": 69
 }
