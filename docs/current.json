@@ -4,20 +4,20 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
     "description": {
-      "text": "Mostly cloudy",
+      "text": "Partly sunny",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLOUDY"
+    "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 19
+    "degrees": 19.5
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 21
+    "degrees": 24.7
   },
   "dewPoint": {
     "unit": "CELSIUS",
@@ -25,16 +25,16 @@
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 21
+    "degrees": 24.7
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 19
+    "degrees": 19.3
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 10
+      "percent": 5
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1019.12
+    "meanSeaLevelMillibars": 1018.63
   },
   "wind": {
     "direction": {
       "cardinal": "SOUTHWEST",
-      "degrees": 215
+      "degrees": 230
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 8
+      "value": 14
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 10
+      "value": 17
     }
   },
   "visibility": {
@@ -69,11 +69,11 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.6
+      "degrees": 1.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 18.4
+      "degrees": 19.1
     },
     "minTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-08-19T10:21:32.659636843Z",
+  "currentTime": "2026-08-19T11:19:09.740769808Z",
   "isDaytime": true,
-  "relativeHumidity": 67,
+  "relativeHumidity": 65,
   "uvIndex": 2,
   "thunderstormProbability": 0,
-  "cloudCover": 71
+  "cloudCover": 56
 }
