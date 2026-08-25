@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
     "description": {
-      "text": "Partly sunny",
+      "text": "Mostly cloudy",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "MOSTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 18
+    "degrees": 18.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 17.5
+    "degrees": 18
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 11.6
+    "degrees": 11.7
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 18
+    "degrees": 18.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 17.5
+    "degrees": 18
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 2
+      "percent": 7
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,12 +46,12 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1025.09
+    "meanSeaLevelMillibars": 1024.71
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST",
-      "degrees": 260
+      "cardinal": "WEST_SOUTHWEST",
+      "degrees": 253
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
@@ -59,7 +59,7 @@
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 23
+      "value": 21
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0
+      "degrees": 0.1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-08-25T09:29:08.346767899Z",
+  "currentTime": "2026-08-25T10:24:50.073865673Z",
   "isDaytime": true,
-  "relativeHumidity": 66,
-  "uvIndex": 3,
+  "relativeHumidity": 65,
+  "uvIndex": 2,
   "thunderstormProbability": 0,
-  "cloudCover": 46
+  "cloudCover": 66
 }
