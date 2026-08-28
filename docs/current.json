@@ -4,7 +4,7 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
     "description": {
       "text": "Mostly cloudy",
       "languageCode": "en"
@@ -13,28 +13,28 @@
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 22
+    "degrees": 16.7
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 24.6
+    "degrees": 16.3
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 14
+    "degrees": 14.4
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 24.6
+    "degrees": 16.7
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 22
+    "degrees": 16.3
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 10
+      "percent": 7
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1017.57
+    "meanSeaLevelMillibars": 1015.88
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST_SOUTHWEST",
-      "degrees": 253
+      "cardinal": "NORTHEAST",
+      "degrees": 51
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 11
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 20
+      "value": 11
     }
   },
   "visibility": {
@@ -69,15 +69,15 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 3.3
+      "degrees": -0.5
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 23.5
+      "degrees": 21.8
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 17
+      "degrees": 16.7
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-08-28T08:38:12.900140809Z",
-  "isDaytime": true,
-  "relativeHumidity": 60,
-  "uvIndex": 1,
+  "currentTime": "2026-08-28T20:36:54.759099592Z",
+  "isDaytime": false,
+  "relativeHumidity": 85,
+  "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 85
+  "cloudCover": 70
 }
