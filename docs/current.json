@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
     "description": {
-      "text": "Sunny",
+      "text": "Cloudy",
       "languageCode": "en"
     },
-    "type": "CLEAR"
+    "type": "CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 18.8
+    "degrees": 15.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 18.9
+    "degrees": 15.8
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 13.2
+    "degrees": 12.8
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 18.9
+    "degrees": 15.9
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 18.8
+    "degrees": 15.8
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 0
+      "percent": 10
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1018.75
+    "meanSeaLevelMillibars": 1020.2
   },
   "wind": {
     "direction": {
-      "cardinal": "SOUTH_SOUTHWEST",
-      "degrees": 195
+      "cardinal": "SOUTHWEST",
+      "degrees": 235
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 13
+      "value": 11
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 14
+      "value": 12
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.4
+      "degrees": 0.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-09-01T12:58:29.076715389Z",
-  "isDaytime": true,
-  "relativeHumidity": 69,
-  "uvIndex": 2,
+  "currentTime": "2026-09-01T17:13:08.623359144Z",
+  "isDaytime": false,
+  "relativeHumidity": 81,
+  "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 3
+  "cloudCover": 94
 }
