@@ -13,7 +13,7 @@
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 17
+    "degrees": 17.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
@@ -21,11 +21,11 @@
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 15.9
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 17
+    "degrees": 17.4
   },
   "windChill": {
     "unit": "CELSIUS",
@@ -33,8 +33,8 @@
   },
   "precipitation": {
     "probability": {
-      "type": "NONE",
-      "percent": 9
+      "type": "RAIN",
+      "percent": 25
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,34 +42,34 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.68
+      "quantity": 0.33
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1020.1
+    "meanSeaLevelMillibars": 1018.31
   },
   "wind": {
     "direction": {
-      "cardinal": "EAST",
-      "degrees": 85
+      "cardinal": "EAST_NORTHEAST",
+      "degrees": 76
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 32
+      "value": 39
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 35
+      "value": 45
     }
   },
   "visibility": {
     "unit": "KILOMETERS",
-    "distance": 11
+    "distance": 14
   },
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0
+      "degrees": -0.8
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 15.11
+      "quantity": 16.62
     }
   },
-  "currentTime": "2026-09-13T05:35:23.160348737Z",
+  "currentTime": "2026-09-13T10:57:43.275346634Z",
   "isDaytime": true,
-  "relativeHumidity": 92,
-  "uvIndex": 0,
+  "relativeHumidity": 90,
+  "uvIndex": 1,
   "thunderstormProbability": 10,
   "cloudCover": 100
 }
