@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
     "description": {
-      "text": "Clear with periodic clouds",
+      "text": "Sunny",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLEAR"
+    "type": "CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 17.5
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 17.4
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 14.6
+    "degrees": 13.7
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 17.5
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 15.8
+    "degrees": 17.4
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 12
+      "percent": 0
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,34 +42,34 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.07
+      "quantity": 0
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1012.68
+    "meanSeaLevelMillibars": 1013.02
   },
   "wind": {
     "direction": {
-      "cardinal": "NORTH_NORTHWEST",
-      "degrees": 348
+      "cardinal": "NORTHWEST",
+      "degrees": 318
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 5
+      "value": 14
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 7
+      "value": 16
     }
   },
   "visibility": {
     "unit": "KILOMETERS",
-    "distance": 13
+    "distance": 16
   },
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -1.5
+      "degrees": -0.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -77,7 +77,7 @@
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 16.4
+      "degrees": 15.5
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 13.38
+      "quantity": 13.39
     }
   },
-  "currentTime": "2026-09-15T00:10:06.987130995Z",
-  "isDaytime": false,
-  "relativeHumidity": 92,
+  "currentTime": "2026-09-15T05:41:50.270087390Z",
+  "isDaytime": true,
+  "relativeHumidity": 78,
   "uvIndex": 0,
-  "thunderstormProbability": 8,
-  "cloudCover": 27
+  "thunderstormProbability": 0,
+  "cloudCover": 0
 }
