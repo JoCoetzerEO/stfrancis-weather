@@ -4,32 +4,32 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
     "description": {
-      "text": "Clear",
+      "text": "Clear with periodic clouds",
       "languageCode": "en"
     },
-    "type": "CLEAR"
+    "type": "MOSTLY_CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 16.7
+    "degrees": 16.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 15.1
+    "degrees": 15
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 12.5
+    "degrees": 12.7
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 16.7
+    "degrees": 16.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 15.1
+    "degrees": 15
   },
   "precipitation": {
     "probability": {
@@ -46,12 +46,12 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1030.37
+    "meanSeaLevelMillibars": 1030.03
   },
   "wind": {
     "direction": {
-      "cardinal": "EAST",
-      "degrees": 85
+      "cardinal": "EAST_NORTHEAST",
+      "degrees": 77
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
@@ -59,7 +59,7 @@
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 31
+      "value": 33
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 1.7
+      "degrees": 1.8
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.38
+      "quantity": 0.19
     }
   },
-  "currentTime": "2026-09-18T16:53:17.200863587Z",
+  "currentTime": "2026-09-18T19:23:13.226024914Z",
   "isDaytime": false,
-  "relativeHumidity": 76,
+  "relativeHumidity": 78,
   "uvIndex": 0,
   "thunderstormProbability": 0,
-  "cloudCover": 10
+  "cloudCover": 15
 }
