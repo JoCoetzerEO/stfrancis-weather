@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
     "description": {
-      "text": "Mostly cloudy",
+      "text": "Partly cloudy",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLOUDY"
+    "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 21.6
+    "degrees": 19.6
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 24.4
+    "degrees": 24.3
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 17.7
+    "degrees": 17.1
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 24.4
+    "degrees": 24.3
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 21.6
+    "degrees": 19.6
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 28
+      "percent": 3
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 0.86
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1013.04
+    "meanSeaLevelMillibars": 1014.73
   },
   "wind": {
     "direction": {
-      "cardinal": "EAST",
-      "degrees": 80
+      "cardinal": "NORTH_NORTHEAST",
+      "degrees": 17
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 18
+      "value": 10
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 25
+      "value": 11
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 3.1
+      "degrees": 1.7
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 2.55
     }
   },
-  "currentTime": "2026-09-22T15:21:16.208210228Z",
-  "isDaytime": true,
-  "relativeHumidity": 78,
+  "currentTime": "2026-09-22T19:29:39.588853133Z",
+  "isDaytime": false,
+  "relativeHumidity": 85,
   "uvIndex": 0,
-  "thunderstormProbability": 14,
-  "cloudCover": 72
+  "thunderstormProbability": 0,
+  "cloudCover": 49
 }
