@@ -4,16 +4,16 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/drizzle",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
     "description": {
-      "text": "Light rain",
+      "text": "Cloudy",
       "languageCode": "en"
     },
-    "type": "LIGHT_RAIN"
+    "type": "CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 16.9
+    "degrees": 17
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
@@ -21,11 +21,11 @@
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 15.2
+    "degrees": 14.9
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 16.9
+    "degrees": 17
   },
   "windChill": {
     "unit": "CELSIUS",
@@ -34,7 +34,7 @@
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 35
+      "percent": 12
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.19
+      "quantity": 0.18
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1027.19
+    "meanSeaLevelMillibars": 1026.88
   },
   "wind": {
     "direction": {
       "cardinal": "EAST",
-      "degrees": 90
+      "degrees": 87
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 21
+      "value": 19
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 25
+      "value": 20
     }
   },
   "visibility": {
@@ -77,7 +77,7 @@
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 15.2
+      "degrees": 15.6
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 25.29
+      "quantity": 16.2
     }
   },
-  "currentTime": "2026-10-03T23:28:07.767083398Z",
-  "isDaytime": false,
-  "relativeHumidity": 89,
+  "currentTime": "2026-10-04T03:53:54.093982940Z",
+  "isDaytime": true,
+  "relativeHumidity": 87,
   "uvIndex": 0,
-  "thunderstormProbability": 10,
+  "thunderstormProbability": 1,
   "cloudCover": 100
 }
