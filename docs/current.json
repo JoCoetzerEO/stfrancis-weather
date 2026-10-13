@@ -4,32 +4,32 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
     "description": {
-      "text": "Mostly cloudy",
+      "text": "Cloudy",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLOUDY"
+    "type": "CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 16.1
+    "degrees": 19.3
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 15
+    "degrees": 24.7
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 13.7
+    "degrees": 14.1
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 16.1
+    "degrees": 24.7
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 15
+    "degrees": 19
   },
   "precipitation": {
     "probability": {
@@ -46,12 +46,12 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1018.61
+    "meanSeaLevelMillibars": 1020.86
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST",
-      "degrees": 259
+      "cardinal": "SOUTHWEST",
+      "degrees": 234
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
@@ -59,7 +59,7 @@
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 17
+      "value": 18
     }
   },
   "visibility": {
@@ -69,11 +69,11 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -0.4
+      "degrees": -2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 23.1
+      "degrees": 21.3
     },
     "minTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 8.32
     }
   },
-  "currentTime": "2026-10-13T02:22:07.855560287Z",
-  "isDaytime": false,
-  "relativeHumidity": 85,
-  "uvIndex": 0,
+  "currentTime": "2026-10-13T10:00:02.675114296Z",
+  "isDaytime": true,
+  "relativeHumidity": 72,
+  "uvIndex": 2,
   "thunderstormProbability": 0,
-  "cloudCover": 89
+  "cloudCover": 95
 }
