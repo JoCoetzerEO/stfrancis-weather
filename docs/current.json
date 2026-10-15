@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
     "description": {
-      "text": "Clear with periodic clouds",
+      "text": "Partly sunny",
       "languageCode": "en"
     },
-    "type": "MOSTLY_CLEAR"
+    "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15.4
+    "degrees": 18.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 14.8
+    "degrees": 18.4
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 12.6
+    "degrees": 13
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15.4
+    "degrees": 18.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 14.8
+    "degrees": 18.4
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 0
+      "percent": 4
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1014.75
+    "meanSeaLevelMillibars": 1017.04
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST",
-      "degrees": 273
+      "cardinal": "WEST_NORTHWEST",
+      "degrees": 289
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 13
+      "value": 5
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 17
+      "value": 8
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -0.7
+      "degrees": 0.2
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-10-15T01:10:07.308590174Z",
-  "isDaytime": false,
-  "relativeHumidity": 83,
-  "uvIndex": 0,
+  "currentTime": "2026-10-15T06:51:35.569702419Z",
+  "isDaytime": true,
+  "relativeHumidity": 71,
+  "uvIndex": 1,
   "thunderstormProbability": 0,
-  "cloudCover": 24
+  "cloudCover": 43
 }
