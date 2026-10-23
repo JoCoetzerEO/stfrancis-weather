@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_clear",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
     "description": {
-      "text": "Partly cloudy",
+      "text": "Partly sunny",
       "languageCode": "en"
     },
     "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 15.3
+    "degrees": 17.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 13.9
+    "degrees": 17.7
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 11.1
+    "degrees": 11.3
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 15.3
+    "degrees": 17.9
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 13.9
+    "degrees": 17.7
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 1
+      "percent": 15
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 0.09
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1022.26
+    "meanSeaLevelMillibars": 1024.89
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST",
-      "degrees": 264
+      "cardinal": "WEST_SOUTHWEST",
+      "degrees": 258
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 29
+      "value": 18
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 33
+      "value": 23
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -0.7
+      "degrees": 1.1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -77,7 +77,7 @@
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 16
+      "degrees": 15
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 3.36
+      "quantity": 1.55
     }
   },
-  "currentTime": "2026-10-23T01:08:43.291551807Z",
-  "isDaytime": false,
-  "relativeHumidity": 75,
-  "uvIndex": 0,
-  "thunderstormProbability": 0,
+  "currentTime": "2026-10-23T06:51:27.108489414Z",
+  "isDaytime": true,
+  "relativeHumidity": 65,
+  "uvIndex": 2,
+  "thunderstormProbability": 10,
   "cloudCover": 39
 }
