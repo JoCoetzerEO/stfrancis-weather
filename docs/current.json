@@ -4,32 +4,32 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
     "description": {
-      "text": "Cloudy",
+      "text": "Mostly cloudy",
       "languageCode": "en"
     },
-    "type": "CLOUDY"
+    "type": "MOSTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 17.8
+    "degrees": 20.4
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 17.8
+    "degrees": 24.4
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 14.5
+    "degrees": 15.2
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 17.8
+    "degrees": 24.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 17.8
+    "degrees": 20.4
   },
   "precipitation": {
     "probability": {
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1018.15
+    "meanSeaLevelMillibars": 1017.06
   },
   "wind": {
     "direction": {
-      "cardinal": "SOUTH_SOUTHEAST",
-      "degrees": 166
+      "cardinal": "EAST",
+      "degrees": 92
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 5
+      "value": 10
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 8
+      "value": 12
     }
   },
   "visibility": {
@@ -69,7 +69,7 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.5
+      "degrees": 1
     },
     "maxTemperature": {
       "unit": "CELSIUS",
@@ -77,7 +77,7 @@
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 16.7
+      "degrees": 17.3
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0.92
+      "quantity": 0.55
     }
   },
-  "currentTime": "2026-11-03T00:21:25.554255768Z",
-  "isDaytime": false,
-  "relativeHumidity": 81,
-  "uvIndex": 0,
+  "currentTime": "2026-11-03T07:28:57.214031493Z",
+  "isDaytime": true,
+  "relativeHumidity": 72,
+  "uvIndex": 2,
   "thunderstormProbability": 0,
-  "cloudCover": 99
+  "cloudCover": 79
 }
