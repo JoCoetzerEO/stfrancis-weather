@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
     "description": {
-      "text": "Partly sunny",
+      "text": "Mostly cloudy",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "MOSTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 17.6
+    "degrees": 15.9
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 16.7
+    "degrees": 15
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 11.1
+    "degrees": 11.6
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 17.6
+    "degrees": 15.9
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 16.7
+    "degrees": 15
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 5
+      "percent": 37
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -42,24 +42,24 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 0.11
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1022.35
+    "meanSeaLevelMillibars": 1027.16
   },
   "wind": {
     "direction": {
-      "cardinal": "SOUTH_SOUTHWEST",
-      "degrees": 207
+      "cardinal": "SOUTH_SOUTHEAST",
+      "degrees": 160
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 24
+      "value": 14
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 31
+      "value": 25
     }
   },
   "visibility": {
@@ -69,11 +69,11 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": -2.8
+      "degrees": -2.5
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 20.4
+      "degrees": 18.9
     },
     "minTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 1.49
+      "quantity": 2.07
     }
   },
-  "currentTime": "2026-11-07T15:20:37.996613675Z",
-  "isDaytime": true,
-  "relativeHumidity": 65,
+  "currentTime": "2026-11-07T19:47:58.272453782Z",
+  "isDaytime": false,
+  "relativeHumidity": 75,
   "uvIndex": 0,
-  "thunderstormProbability": 3,
-  "cloudCover": 37
+  "thunderstormProbability": 10,
+  "cloudCover": 79
 }
