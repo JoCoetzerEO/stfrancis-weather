@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
     "description": {
-      "text": "Sunny",
+      "text": "Partly sunny",
       "languageCode": "en"
     },
-    "type": "CLEAR"
+    "type": "PARTLY_CLOUDY"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 17.9
+    "degrees": 21
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 17.7
+    "degrees": 24.4
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 13.3
+    "degrees": 12.8
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 17.9
+    "degrees": 24.4
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 17.7
+    "degrees": 21
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 0
+      "percent": 5
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1015.03
+    "meanSeaLevelMillibars": 1016.83
   },
   "wind": {
     "direction": {
-      "cardinal": "WEST",
-      "degrees": 280
+      "cardinal": "WEST_SOUTHWEST",
+      "degrees": 238
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 16
+      "value": 32
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 18
+      "value": 35
     }
   },
   "visibility": {
@@ -69,11 +69,11 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 0.2
+      "degrees": -0.7
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 22.2
+      "degrees": 21.7
     },
     "minTemperature": {
       "unit": "CELSIUS",
@@ -85,13 +85,13 @@
     },
     "qpf": {
       "unit": "MILLIMETERS",
-      "quantity": 0
+      "quantity": 0.16
     }
   },
-  "currentTime": "2026-11-22T04:42:15.627973152Z",
+  "currentTime": "2026-11-22T13:00:01.157434508Z",
   "isDaytime": true,
-  "relativeHumidity": 73,
-  "uvIndex": 0,
+  "relativeHumidity": 59,
+  "uvIndex": 4,
   "thunderstormProbability": 0,
-  "cloudCover": 10
+  "cloudCover": 43
 }
