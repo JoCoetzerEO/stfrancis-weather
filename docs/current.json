@@ -4,37 +4,37 @@
     "version": ""
   },
   "weatherCondition": {
-    "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
     "description": {
-      "text": "Partly sunny",
+      "text": "Sunny",
       "languageCode": "en"
     },
-    "type": "PARTLY_CLOUDY"
+    "type": "CLEAR"
   },
   "temperature": {
     "unit": "CELSIUS",
-    "degrees": 16.5
+    "degrees": 22
   },
   "feelsLikeTemperature": {
     "unit": "CELSIUS",
-    "degrees": 16.5
+    "degrees": 24.5
   },
   "dewPoint": {
     "unit": "CELSIUS",
-    "degrees": 13.5
+    "degrees": 16.7
   },
   "heatIndex": {
     "unit": "CELSIUS",
-    "degrees": 16.5
+    "degrees": 24.5
   },
   "windChill": {
     "unit": "CELSIUS",
-    "degrees": 16.5
+    "degrees": 22
   },
   "precipitation": {
     "probability": {
       "type": "RAIN",
-      "percent": 5
+      "percent": 0
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -46,20 +46,20 @@
     }
   },
   "airPressure": {
-    "meanSeaLevelMillibars": 1016.15
+    "meanSeaLevelMillibars": 1012.75
   },
   "wind": {
     "direction": {
-      "cardinal": "NORTH_NORTHEAST",
-      "degrees": 19
+      "cardinal": "EAST_SOUTHEAST",
+      "degrees": 113
     },
     "speed": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 5
+      "value": 18
     },
     "gust": {
       "unit": "KILOMETERS_PER_HOUR",
-      "value": 8
+      "value": 21
     }
   },
   "visibility": {
@@ -69,15 +69,15 @@
   "currentConditionsHistory": {
     "temperatureChange": {
       "unit": "CELSIUS",
-      "degrees": 1.1
+      "degrees": 0.7
     },
     "maxTemperature": {
       "unit": "CELSIUS",
-      "degrees": 22.4
+      "degrees": 22.9
     },
     "minTemperature": {
       "unit": "CELSIUS",
-      "degrees": 15.4
+      "degrees": 15.8
     },
     "snowQpf": {
       "unit": "MILLIMETERS",
@@ -88,10 +88,10 @@
       "quantity": 0
     }
   },
-  "currentTime": "2026-11-26T03:53:47.866652856Z",
+  "currentTime": "2026-11-26T13:28:35.178482666Z",
   "isDaytime": true,
-  "relativeHumidity": 81,
-  "uvIndex": 0,
+  "relativeHumidity": 71,
+  "uvIndex": 4,
   "thunderstormProbability": 0,
-  "cloudCover": 45
+  "cloudCover": 8
 }
